@@ -21,7 +21,13 @@ const fetchSongsError = error => ({
 
 const fetchSongs = () => async (dispatch) => {
     dispatch(fetchSongsRequest());
-    axios.get('https://album-display-poc.netlify.app/.netlify/functions/get-data')
+
+    const server = process.env.NODE_ENV === "development" 
+                ? 'http://localhost:9000/albums'
+                : 'https://album-display-poc.netlify.app/.netlify/functions/albums'
+    
+    console.log();
+    axios.get(server)
         .then(response => {
             dispatch(fetchSongsSuccess(response));
         })

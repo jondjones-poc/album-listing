@@ -28,8 +28,6 @@ The following files are included in the zip file:
 |  src/                            |  Empty source directory                      |
 |  package.json                    |  Basic template for npm / yarn|              |
 |  yarn.lock                       |  Empty template for yarn                     |
-|  Pirum React Front-end test.pdf  |  This file                                   |
-
 
 #### Expected solution
 

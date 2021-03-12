@@ -16,17 +16,17 @@ const Heading = styled.div`
 `
 
 
-// Use container pattern to decouple conerns from grid
+// Use container pattern to decouple concerns from grid
 const AlbumListingContainer = connect(getAlbums)(AlbumContainer);
 
 function App() {
 
-  const [showAll, setshowAll] = useState(true);
+  const [showAll, setShowAll] = useState(true);
 
   return (
     <Fragment>    
       <Heading>
-        Albums  <span onClick={() => setshowAll(!showAll)}> {showAll ?  '⬆️' : '⬇️'}</span>
+        Albums  <span onClick={() => setShowAll(!showAll)}> {showAll ?  '⬆️' : '⬇️'}</span>
       </Heading>
       <AlbumListingContainer showAll={showAll}></AlbumListingContainer>
     </Fragment>

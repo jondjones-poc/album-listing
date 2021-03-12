@@ -3,7 +3,7 @@ import thunk from 'redux-thunk';
 import songs from '../state/reducers/songs'
 
 // Create Store.
-export default () =>{
+const Store = () => {
     const store = createStore(
         combineReducers({songs}),
         applyMiddleware(thunk)
@@ -11,3 +11,5 @@ export default () =>{
 
     return store
 };
+
+export default Store;
