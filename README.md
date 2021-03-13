@@ -1,4 +1,4 @@
-# Introduction
+# Album Listing - By Jon D Jones 💥
 
 In this test your task is to display a list of music albums and songs, using React and Redux.
 
