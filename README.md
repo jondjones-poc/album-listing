@@ -1,4 +1,4 @@
-#### Introduction
+# Introduction
 
 In this test your task is to display a list of music albums and songs, using React and Redux.
 
@@ -8,7 +8,7 @@ In this test your task is to display a list of music albums and songs, using Rea
 
 👾☄️👻👺🕹️
 
-#### Specification
+## Specification
 
 - Test data: in the data.json file we provide a static list of songs.
 - Each song in the list has 3 attributes: band, album, song
@@ -33,7 +33,7 @@ The following files are included in the zip file:
 |  package.json                    |  Basic template for npm / yarn|              |
 |  yarn.lock                       |  Empty template for yarn                     |
 
-#### Expected solution
+## Expected solution
 
 1. The main purpose of this test is for you to show your ability to design and implement
    bespoke web sites using React/Redux.  
@@ -44,10 +44,10 @@ The following files are included in the zip file:
 5. You're free to use any related library you choose, this test not just about implementation skills, but  
    to see your design choices and your ability to create an integrated solution from multiple technologies.
 
-#### Screenshots of example screens 
+## Screenshots of example screens 
 
-![Screen Shot 2017-04-03 at 22.40.04.png](/assets/37536905-Screen%20Shot%202017-04-03%20at%2022.40.04.png)
+![Screen Shot 2017-04-03 at 22.40.04.png](/asset/37536905-Screen%20Shot%202017-04-03%20at%2022.40.04.png)
 
-![Screen Shot 2017-04-03 at 22.40.50.png](/assets/398891032-Screen%20Shot%202017-04-03%20at%2022.40.50.png)
+![Screen Shot 2017-04-03 at 22.40.50.png](/asset/398891032-Screen%20Shot%202017-04-03%20at%2022.40.50.png)
 
 *(You’re free to use any icon-set you like, these are here just an example for expand/collapse icons)*
