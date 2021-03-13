@@ -4,6 +4,10 @@ In this test your task is to display a list of music albums and songs, using Rea
 
 **Website** [https://album-display-poc.netlify.app/](https://album-display-poc.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d81a2c8-90a9-4989-905d-fcab4ebc8b97/deploy-status)](https://app.netlify.com/sites/album-display-poc/deploys)
+
+👾☄️👻👺🕹️
+
 #### Specification
 
 - Test data: in the data.json file we provide a static list of songs.
